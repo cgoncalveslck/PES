@@ -1,0 +1,21 @@
+### RACI Matrix
+
+| Activity/Task                                | Project Manager (João Alves) | Drone Operations Specialist | Geographic Systems Specialist | Full Stack Developers | Machine Learning Specialists | Software Engineers | Technical Team | Technical Consultancy |
+|----------------------------------------------|-----------------------------|-----------------------------|-------------------------------|-----------------------|-----------------------------|--------------------|----------------|-----------------------|
+| **Drone Network Setup**                      | A                           | R                           | C                             | C                     | C                           | C                  | C              | I                     |
+| **Surveillance Coordination**                | A                           | R                           | C                             | C                     | C                           | C                  | C              | I                     |
+| **Fire Detection Algorithms Development**    | A                           | C                           | C                             | C                     | R                           | C                  | C              | I                     |
+| **Alert and Notification System**            | A                           | C                           | C                             | R                     | C                           | C                  | C              | I                     |
+| **Real-Time Data Transmission**              | A                           | C                           | C                             | R                     | C                           | C                  | C              | I                     |
+| **System Integration**                       | A                           | C                           | R                             | C                     | C                           | R                  | C              | I                     |
+| **Environmental Data Integration**           | A                           | C                           | R                             | C                     | C                           | C                  | C              | I                     |
+| **System Testing**                           | R                           | C                           | C                             | R                     | C                           | C                  | A              | I                     |
+| **Pilot Testing**                            | A                           | R                           | C                             | R                     | C                           | C                  | C              | I                     |
+| **Project Coordination and Reporting**       | A                           | C                           | C                             | C                     | C                           | C                  | R              | I                     |
+| **Consultancy and Technical Support**        | I                           | I                           | I                             | I                     | I                           | I                  | R              | A                     |
+
+### RACI Definitions:
+- **R (Responsible):** The role(s) responsible for completing the task.
+- **A (Accountable):** The role accountable for the task, the final decision-maker.
+- **C (Consulted):** Roles that provide input or expertise.
+- **I (Informed):** Roles that need to be kept informed of progress or decisions.
