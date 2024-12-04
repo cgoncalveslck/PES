@@ -1,33 +1,17 @@
 ```mermaid
 graph TD
-    A[SDMID System]
-    A1[Drone Operations and Coordination]
-    A2[Detection and Monitoring System]
-    A3[Data Integration and Communication]
-    A4[Validation and Testing]
-    A5[Resources and Support]
+    A[Sistema de Deteção e Monitorização de Incêndios por Drones]
+    A --> B[Plataforma de Gestão]
+    A --> C[Rede de Drones]
+    A --> D[Sistema de Algoritmos]
 
-    A --> A1
-    A --> A2
-    A --> A3
-    A --> A4
-    A --> A5
+    B --> B1[Interface de Monitorização]
+    B --> B2[Sistema de Controlo]
 
-    A1 --> B1[Drone Network]
-    A1 --> B2[Surveillance Coordination]
+    C --> C1[Gestão de Rotas]
+    C --> C2[Transmissão de Dados]
 
-    A2 --> C1[Fire Detection Algorithms]
-    A2 --> C2[Alert and Notification System]
-    A2 --> C3[Real-Time Data Streams]
-
-    A3 --> D1[System Integration]
-    A3 --> D2[Environmental Data Support]
-
-    A4 --> E1[System Testing]
-    A4 --> E2[Pilot Implementation]
-
-    A5 --> F1[Project Team]
-    A5 --> F2[Technical and Consultancy Support]
-
-
+    D --> D1[Deteção de Fumo]
+    D --> D2[Deteção de Calor]
+    D --> D3[Sistema de Alertas]
 ```
